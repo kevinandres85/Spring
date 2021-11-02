@@ -7,12 +7,12 @@ spring:
       server:
         git:
           uri: https://github.com/kevinandres85/Spring.git
-          searchPath: config-data
           username: ${GIT_USER}
           password: ${GIT_PASSWORD}
+          search-paths: config-data
   security:
     user:
       name: root
       password: s3cr3t
-      
+
 
