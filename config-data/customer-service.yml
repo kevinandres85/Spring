@@ -1,6 +1,6 @@
 #Application Configuration
 server:
-  port: 8081
+  port: 8092
   error:
     include-message: always
 # To See H2 Console in Browser:
