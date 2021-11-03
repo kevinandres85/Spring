@@ -6,18 +6,12 @@ server:
 # http://localhost:8093/h2-console
 # Enabling H2 Console
 spring:
-  h2:
-    console:
-      enabled: true
-  # ===============================
-  # DB
-  # ===============================
+
   datasource:
-    url: jdbc:h2:mem:invoiceDB;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
-    driverClassName: org.h2.Driver
-    platform: h2
-    username: sa
-    password:
+    url: jdbc:mysql://localhost:3306/shopping-service
+    driverClassName: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 1234
 
   # ===============================
   # JPA / HIBERNATE
@@ -26,12 +20,13 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: update
-    database-platform: org.hibernate.dialect.H2Dialect
+    database-platform: org.hibernate.dialect.MySQL5Dialect
     properties:
       hibernate:
         show_sql: true
         use_sql_comments: false
         format_sql: false
+    defer-datasource-initialization: true
 logging:
   pattern:
     console: "%d{yyyy-MM-dd HH:mm:ss} ${LOG_LEVEL_PATTERN:-%5p} %m%n"
