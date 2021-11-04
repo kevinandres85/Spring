@@ -49,6 +49,7 @@ public class CustomerServiceImpl implements CustomerService {
         customerDB.setLastName(customer.getLastName());
         customerDB.setEmail(customer.getEmail());
         customerDB.setPhotoUrl(customer.getPhotoUrl());
+        customerDB.setState("UPDATED");
 
         return customerRepository.save(customerDB);
     }
