@@ -2,8 +2,10 @@ package academy.digitallab.store.shopping.client;
 
 import academy.digitallab.store.shopping.model.Customer;
 import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Component;
 
-public class CustomerHystixFallBackFactory implements CustomerClient{
+@Component
+public class CustomerHystrixFallBackFactory implements CustomerClient{
 
     @Override
     public ResponseEntity<Customer> getCustomer(long id) {
