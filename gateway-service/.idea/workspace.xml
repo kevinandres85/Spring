@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8560f071-04a8-47a0-baa5-9eeaf9dc0660" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../admin-service/admin-service/src/main/java/academy/digitallab/store/admin/AdminServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admin-service/admin-service/src/main/java/academy/digitallab/store/admin/AdminServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../customer-service/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../customer-service/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../customer-service/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../product-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-service/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../product-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../shopping-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-service/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../shopping-service/src/main/resources/bootstrap.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +104,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1636125127154</updated>
-      <workItem from="1636125129113" duration="6668000" />
+      <workItem from="1636125129113" duration="9436000" />
     </task>
     <servers />
   </component>
