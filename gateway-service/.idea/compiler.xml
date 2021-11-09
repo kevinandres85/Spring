@@ -2,8 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
-      <module name="gateway-service.gateway-service.main" target="1.8" />
-      <module name="gateway-service.gateway-service.test" target="1.8" />
+      <module name="gateway-service.gateway-service.main~1" target="1.8" />
+      <module name="gateway-service.gateway-service.test~1" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
